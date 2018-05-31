@@ -1,0 +1,23 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+selenium = "*"
+appium-python-client = "*"
+selene = "==1.0.0a13"
+pytest = "*"
+
+
+[dev-packages]
+
+pycodestyle = "*"
+
+
+[requires]
+
+python_version = "3.6"

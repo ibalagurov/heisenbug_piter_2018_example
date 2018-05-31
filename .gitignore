@@ -1,0 +1,10 @@
+# Pytest
+.cache/
+.pytest_cache/
+
+
+# Pycharm
+.idea/*
+
+
+*.pyc
