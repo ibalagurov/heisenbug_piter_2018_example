@@ -42,7 +42,8 @@ What do you need?
 # Run tests:
 1. Run appium server `appium` for iOS or Android
 2. Choose platform `export PLATFORM='WEB'` or `IOS` or `ANDROID`
-3. Run tests `python3 -m pytest tests/ui` or just:
+3. Activate virtual environment with dependencies: `pipenv shell`
+4. Run tests `python3 -m pytest tests/ui` or just:
     * `. ./scripts/run_ios_tests.sh`
     * `. ./scripts/run_android_tests.sh`
     * `. ./scripts/run_web_tests.sh`
