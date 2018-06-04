@@ -1,10 +1,7 @@
 from . import env
 
-DEFAULT_LOGIN = env.get('DEFAULT_LOGIN')
-DEFAULT_PASSWORD = env.get('DEFAULT_PASSWORD')
-
-if not (DEFAULT_PASSWORD and DEFAULT_LOGIN):
-    raise ValueError('Login and password are not defined')
+DEFAULT_LOGIN = env.get('DEFAULT_LOGIN', 'default_login_plz_change_me')
+DEFAULT_PASSWORD = env.get('DEFAULT_PASSWORD', 'default_password_plz_change_me')
 
 USERS = {
     'default': {
