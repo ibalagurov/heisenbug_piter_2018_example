@@ -17,6 +17,7 @@ What do you need?
 8. Install xcode (for ios simulator)
 9. Install [android studio](https://developer.android.com/studio/) or any android simulator
 10. Install Python dependencies: `. ./scripts/install_deps.sh `(Terminal from root project folder)
+11. I can miss something: you can try for example [this](https://medium.com/@appiummanager/appium-setup-from-scratch-6388f5e6caee)
 
 # Customize for your application:
 1. Put ".app" or/and ".apk" into [mobile app](mobile_app) directory
