@@ -1,4 +1,4 @@
-# Demo example for [presentation](https://heisenbug-piter.ru/en/talks/2018/spb/6plww0slg8akuymkumm4iq/)
+# Demo example for [presentation](https://heisenbug-piter.ru/en/talks/2018/spb/6plww0slg8akuymkumm4iq/) [[video]](https://www.youtube.com/watch?v=YoMt08OcxMI)
 target OS - Mac, so detailed install information provided only for it.
 What is it? 
 Demo login test for "one test for several platforms" approach
