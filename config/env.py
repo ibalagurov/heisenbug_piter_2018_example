@@ -6,5 +6,5 @@ def get(key, default=None):
 
 
 def get_bool(key, default=None):
-    value = get(key, default).lower()
-    return value == 'true'
+    value = get(key, default)
+    return f'{value}'.lower() == 'true'
